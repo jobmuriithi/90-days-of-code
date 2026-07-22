@@ -46,6 +46,8 @@ print (name.split())
 print (name.replace("Job", "JOBS"))
 print (name.strip())
 
+#joIN 
+#JOINS A LIST INTO ONE STRING
 
 
 
