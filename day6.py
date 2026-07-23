@@ -49,14 +49,31 @@ is_available = False
 
 if age >= 18 and is_available:
     print("You can vote")
+
 else:
     print("You cannot vote")
 
+
 if age >= 18 or is_available:
     print("You can vote")
+
 else:
     print("You cannot vote")
+
+
 if not is_available:
     print("You cannot vote")
+
 else:
     print("You can vote")
+
+    #ATM
+    #A person inputs their names
+    #password
+    #inputs their balance
+
+    #JOHN
+    #12334556677889900JOHN
+    #10000
+
+    #IF ... ELIF ... ELSE
