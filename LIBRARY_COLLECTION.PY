@@ -6,12 +6,15 @@ class LibraryBook:
         self.year = year
         self.available = True
 
-    def borrow(self):
+    def borrow(self):#book1
         if self.available:
             self.available = False
             print(f"{self.title} has been borrowed.")
         else:
             print(f"{self.title} is already borrowed.")
+
+            #LibraryBook.borrow(book1)
+            #if book1.avilable
 
     def return_book(self):
         if not self.available:
@@ -53,6 +56,8 @@ book3 = LibraryBook(
     1967
 )
 
+#book1.title = "Hanging Tree"
+#book1.available = True
 
 # Testing Book 1
 book1.details()

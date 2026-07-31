@@ -93,3 +93,15 @@ student2.introduce()
 student3.introduce()
 student4.introduce()
 student5.introduce()
+
+#class tells python that you are basically creating a class
+#Student name of the class
+#colon starts the class body   Mlango...door
+
+
+#object
+#student1 = student()
+
+
+#constructor
+#self
