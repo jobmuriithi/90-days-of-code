@@ -16,7 +16,7 @@
 age = 12
 
 if age >= 18:
-    print
+    print("You can Vote")
 
     #if...else statement
 else:

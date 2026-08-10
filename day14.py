@@ -29,6 +29,8 @@ pay(500)
 
 #custom currency
 pay(500, "USD")
+pay(200)
+pay(400)
 
 
 #SCOPE
@@ -46,8 +48,8 @@ school = "Machakos School"
 
 def print_school():
     print(school)
-
 print_school()
+
 
 
 def calculated_area(length, width):

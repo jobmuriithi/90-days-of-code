@@ -22,14 +22,16 @@ while cake <= 9:
     cake += 2
 
 
+
 #infite loop
 #cake = 1
-#while cake <= 9:
+#while  cake <= 9:
     #print(cake)
 
 
 #FOR LOOPS
 #Repeat over a sequence
+
 
 for numbers in range(7):
     print(numbers)

@@ -1,5 +1,5 @@
 #RECURSION
-# A recursive function is a function that calls itself until it reaches a base case. It is a powerful tool in programming that allows for elegant solutions to problems that can be broken down into smaller, similar subproblems.
+# A recursive function is a function that calls itself until it reaches a base case. It is a powerful tool in programming lows for elegant solutions to problems that can be broken down into smaller, similar subproblems.
 
 def countdown(n):
     if n == 0:
