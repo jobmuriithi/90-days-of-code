@@ -26,12 +26,12 @@ print(bank._balance)
 
 #PRIVATE MEMBERS
 #They begin with two undescores
-class Bank:
-    def __init__(self):
-        self.__balance = 1000
+#class Bank:
+    #def __init__(self):
+        #self.__balance = 1000
 
-bank = Bank()
-print(bank.__balance)
+#bank = Bank()
+#print(bank.__balance)
 
 
 #METHOD CONTROL DATA
@@ -39,10 +39,10 @@ print(bank.__balance)
 #GETTERS AND SETTERS
 #You might want to update private data safely
 #Getters read the value
-
-def get__balance(self):
-    return self.__balance
-
+class account:
+    def get__balance(self):
+        return self.__balance
+     
 print(account.get__balance)
 
 #Setters update the value after validation

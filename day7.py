@@ -22,7 +22,6 @@ while cake <= 9:
     cake += 2
 
 
-
 #infite loop
 #cake = 1
 #while  cake <= 9:
@@ -40,7 +39,7 @@ for numbers in range(7):
 #range(5) prints 0 - 4
 
 for i in range(5):
-    print(1)
+    print(i)
 
 for i in range(0,12,4):
     print(i)

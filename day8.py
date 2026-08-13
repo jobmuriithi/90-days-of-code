@@ -76,8 +76,9 @@ class Student:
         self.name = name
         self.course = course
 
-    def introduce(self):
-        pass
+ 
+        def introduce(self):
+            pass
 
         print(f"My name is {self.name}")
         print(f"I study {self.course}")
