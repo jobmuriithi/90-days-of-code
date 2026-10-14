@@ -1,0 +1,45 @@
+SQL -  Structured Query Language
+
+
+student_id    name    course   year
+ 3839/Ku/26   Job      Cs       2019
+
+The SELECT Statement
+
+SELECT * FROM students;
+SELECT name FROM  students;
+SELECT name,course FROM students;
+
+Filtering with WHERE
+
+SELECT * FROM students WHERE course = "Computer Science";
+
+= 
+!= or <>
+>
+<
+>=
+<=
+AND
+OR
+LIKE 
+
+Sorting with ORDER BY
+
+SELECT * FROM students ORDER BY name DESC;
+SELECT * FROM students ORDER BY year ASC, name ASC;
+
+Students
+
+   student_id  name     course_id
+   68/KU/25    KEN       3738
+
+
+Courses
+
+  course_id  course_name
+  3738        ENGINEERING
+
+  SELECT students.name,courses.course_name FROM students JOIN courses ON students.course_id = course.course_id
+
+SQLite
