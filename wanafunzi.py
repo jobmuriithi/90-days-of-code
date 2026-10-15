@@ -14,10 +14,7 @@ name TEXT NOT NULL,
 course TEXT NOT NULL,
 year INTEGER NOT NULL)
 """)
-
 connection.commit()
-
-connection.close()
 
 print("Students table has been created")
 
@@ -28,7 +25,22 @@ print("Students table has been created")
 #D Delete
 
 cursor.execute("""
-INSERT INTO wanafunz.db (name,course,year) VALUES(?,?,?)""", ('Alice','Computer Science',2))
+INSERT INTO students (name,course,year) VALUES(?,?,?)""", ('Alice','Computer Science',2))
 
 connection.commit()
 
+
+# Check whether the table exists
+cursor.execute("""
+SELECT name FROM sqlite_master
+WHERE type = 'table' AND name = 'students'
+""")
+
+result = cursor.fetchone()
+
+if result:
+    print("The wanafunzi table exists!")
+else:
+    print("The table does not exist!")
+
+connection.close()
